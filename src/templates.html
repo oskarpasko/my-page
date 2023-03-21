@@ -14,10 +14,11 @@
     <!-- Bootstraps JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4eae93b131.js" crossorigin="anonymous"></script>
 
     <title>Templates</title>
   </head>
-  <body class="bg-dark-purple">
+  <body class="bg-dark-purple d-flex flex-column min-vh-100">
         
     <!-- NAVBAR -->
     <div class="container-fluid p-3">
@@ -79,7 +80,7 @@
     <!-- END NAVBAR -->
 
     <!-- MAIN CONTAINER -->
-    <div class="container mt-5">
+    <div class="container mt-5 mb-5">
         <div class="row">
             <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
@@ -162,10 +163,60 @@
                       <div class="accordion-body"><a href="https://www.visme.co">Here</a> You can create Your own presentations!</div>
                     </div>
                 </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed bg-light-gray text-dark-purple" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseThree">
+                      FontAwesome
+                    </button>
+                  </h2>
+                  <div id="flush-collapseNine" class="accordion-collapse collapse p-3" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><a href="https://fontawesome.com">Font Awesome</a> is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators.</div>
+                  </div>
+              </div>
             </div>
         </div>
     </div>
     <!-- END MAIN CONTAINER-->
+
+    <!-- FOOTER -->
+    <footer class="text-center text-white mt-auto bg-footer" style="background-color: #f1f1f1;">
+      <div class="container pt-4">
+        <section class="mb-4">
+          <a
+            class="btn btn-link btn-floating btn-lg text-white m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a
+            class="btn btn-link btn-floating btn-lg text-white m-1"
+            href="https://www.reddit.com/user/ZackRadinyn"
+            role="button"
+            data-mdb-ripple-color="dark">
+            <i class="fa-brands fa-reddit"></i>
+          </a>
+          <a
+            class="btn btn-link btn-floating btn-lg text-white m-1"
+            href="https://www.linkedin.com/in/oskar-paśko-9b8b921b3/"
+            role="button"
+            data-mdb-ripple-color="dark">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a
+            class="btn btn-link btn-floating btn-lg text-white m-1"
+            href="https://github.com/oskarpasko"
+            role="button"
+            data-mdb-ripple-color="dark">
+            <i class="fab fa-github"></i>
+          </a>
+        </section>
+      </div>
+      <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright: Oskar Paśko
+      </div>
+    </footer>
+    <!-- END FOOTER -->
     
 
     <!-- Optional JavaScript -->
