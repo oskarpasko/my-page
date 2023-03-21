@@ -12,3 +12,4 @@
 /* Other settings */
 .testClass{min-height: 100vh;}
 .dropdown-menu{width: 100vw;}
+.dropdown-menu-reset{width: inherit;}
