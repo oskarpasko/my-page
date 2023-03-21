@@ -6,6 +6,9 @@
 .bg-light-gray{--bs-bg-opacity: 1; background-color: #DCBBFF !important;}
 .bg-footer{--bs-bg-opacity: 1; background-color: #414142 !important;}
 
+/* Text colors */
 .text-dark-purple{--bs-bg-opacity: 1; color: #4E04A8 !important;}
+
+/* Other settings */
 .testClass{min-height: 100vh;}
 .dropdown-menu{width: 100vw;}
