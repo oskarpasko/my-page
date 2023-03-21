@@ -1,8 +1,11 @@
+/* backgorund colors */
 .bg-dark-purple{background-color: #090A23;}
 .bg-purple{--bs-bg-opacity: 1; background-color: #7B00FF !important;}
 .bg-dark-purple{background-color: #120c13;}
 .bg-gray{--bs-bg-opacity: 1; background-color: #D5ADFF !important;}
 .bg-light-gray{--bs-bg-opacity: 1; background-color: #DCBBFF !important;}
+.bg-footer{--bs-bg-opacity: 1; background-color: #414142 !important;}
+
 .text-dark-purple{--bs-bg-opacity: 1; color: #4E04A8 !important;}
 .testClass{min-height: 100vh;}
 .dropdown-menu{width: 100vw;}
