@@ -12,3 +12,22 @@
 /* Other settings */
 .testClass{min-height: 100vh;}
 .dropdown-menu{width: 100vw;}
+.dropdown-menu-reset{width: inherit;}
+
+
+.dropdown-menu li {
+position: relative;
+}
+.dropdown-menu .dropdown-submenu {
+display: none;
+position: absolute;
+left: 100%;
+top: -7px;
+}
+.dropdown-menu .dropdown-submenu-left {
+right: 100%;
+left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+display: block;
+}
