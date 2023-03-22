@@ -11,6 +11,7 @@
 .text-dark-purple{--bs-bg-opacity: 1; color: #4E04A8 !important;}
 
 /* Other settings */
+.content-height{min-height: 100vh; min-width: 100%;}
 .testClass{min-height: 100vh;}
 .dropdown-menu{width: 100vw;}
 .dropdown-menu-reset{width: inherit;}
