@@ -17,7 +17,9 @@
     <script src="https://kit.fontawesome.com/4eae93b131.js" crossorigin="anonymous"></script>
 
     <style>
-      .dropdown-item:hover{background-color: rgb(60, 60, 60);}
+      @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Indie+Flower&family=Lato:ital,wght@0,400;1,300&display=swap');
+      html, body{font-family: 'Lato', sans-serif;}
+      .dropdown-item:hover{--bs-bg-opacity: 1; color: #ffffff !important; background-color: inherit;}
     </style>
 
     <title>MainPage</title>
@@ -33,37 +35,31 @@
           </li>
           <!-- DROPDOWN -->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Favoured Projects</a>
+            <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">favoured projects</a>
             <div class="dropdown-menu bg-light-black p-4">
               <div class="container text-center">
                 <div class="row align-items-start">
-                  <div class="col">
-                    <div class="card" style="width: 18rem;">
+                  <div class="col m-3">
+                    <div class="card bg-light-black" style="width: 18rem;">
                       <img src="img/szkolne-pomoce.png" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <a class="dropdown-item text-black" href="#">Another action</a>
-
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a class="link-card dropdown-item text-gray" href="https://oskarpasko.github.io/szkolne-pomoce/" target="_blank">szkolne-pomoce</a>
                       </div>
                     </div>
                   </div>
-                  <div class="col">
-                    <div class="card" style="width: 18rem;">
-                      <img src="..." class="card-img-top" alt="...">
+                  <div class="col m-3">
+                    <div class="card bg-light-black" style="width: 18rem;">
+                      <img src="img/szkolne-pomoce.png" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a class="link-card dropdown-item text-gray" href="https://oskarpasko.github.io/szkolne-pomoce/" target="_blank">szkolne-pomoce</a>
                       </div>
                     </div>
                   </div>
-                  <div class="col">
-                    <div class="card" style="width: 18rem;">
-                      <img src="..." class="card-img-top" alt="...">
+                  <div class="col m-3">
+                    <div class="card bg-light-black" style="width: 18rem;">
+                      <img src="img/szkolne-pomoce.png" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a class="link-card dropdown-item text-gray" href="https://oskarpasko.github.io/szkolne-pomoce/" target="_blank">szkolne-pomoce</a>
                       </div>
                     </div>
                   </div>
@@ -75,39 +71,50 @@
           <!-- SECOND DROPDOWN -->
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Django</a>
+            <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">django</a>
             <ul class="dropdown-menu dropdown-menu-reset bg-light-black">
-              <li><a class="dropdown-item text-white" href="#">Action</a></li>
-              <li><a class="dropdown-item text-white" href="#">Another action</a></li>
-              <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
+              <li><a class="dropdown-item text-gray" href="#" target="_blank">Action</a></li>
+              <li><a class="dropdown-item text-gray" href="#" target="_blank">Another action</a></li>
+              <li><a class="dropdown-item text-gray" href="#" target="_blank">Something else here</a></li>
             </ul>
           </li>
 
           <!-- THIRD DROPDOWN -->
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">React</a>
+            <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">react</a>
             <ul class="dropdown-menu dropdown-menu-reset bg-light-black">
-              <li><a class="dropdown-item text-white" href="#">Action</a></li>
-              <li><a class="dropdown-item text-white" href="#">Another action</a></li>
-              <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
+              <li><a class="dropdown-item text-gray" href="#" target="_blank">Action</a></li>
+              <li><a class="dropdown-item text-gray" href="#" target="_blank">Another action</a></li>
+              <li><a class="dropdown-item text-gray" href="#" target="_blank">Something else here</a></li>
             </ul>
           </li>
 
           <!-- 4th DROPDOWN -->
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">FunProjects</a>
+            <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">fun-projects</a>
             <ul class="dropdown-menu dropdown-menu-reset bg-light-black">
-              <li><a class="dropdown-item text-white" href="https://oskarpasko.github.io/szkolne-pomoce/" target="_blank">szkolne-pomoce</a></li>
-              <li><a class="dropdown-item text-white" href="#">Another action</a></li>
-              <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
+              <li><a class="dropdown-item text-gray" href="https://oskarpasko.github.io/szkolne-pomoce/" target="_blank">szkolne-pomoce</a></li>
+              <li><a class="dropdown-item text-gray" href="#" target="_blank">Another action</a></li>
+              <li><a class="dropdown-item text-gray" href="#" target="_blank">Something else here</a></li>
+            </ul>
+          </li>
+
+          <!-- 5th DROPDOWN -->
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">css-course</a>
+            <ul class="dropdown-menu dropdown-menu-reset bg-light-black">
+              <li><a class="dropdown-item text-gray" href="" target="_blank">Action</a></li>
+              <li><a class="dropdown-item text-gray" href="#" target="_blank">Another action</a></li>
+              <li><a class="dropdown-item text-gray" href="#" target="_blank">Something else here</a></li>
             </ul>
           </li>
           <!-- END DROPDOWNS -->
         
           <li class="nav-item">
-            <a class="nav-link text-white" href="src/templates.html">Templates</a>
+            <a class="nav-link text-white" href="src/templates.html">templates</a>
           </li>
         </ul>
       </div>
@@ -118,9 +125,9 @@
 
 
     <div class="container content-height text-center">
-      <div class="row m-5 text-white">
-        <h1>MyPage</h1>
-        <h6 class="mt-4">Main page with Django, React and other projects.</h6>
+      <div class="row m-5 text-white w-50 mx-auto">
+        <h1 class="display-1">MyPage</h1>
+        <h6 class="mt-4">Main page with Django, React and other projects. Some project are created for fun but some projects are created during courses and during learn some new stuff.</h6>
       </div>
     </div>
 
