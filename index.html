@@ -20,6 +20,20 @@
       @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Indie+Flower&family=Lato:ital,wght@0,400;1,300&display=swap');
       html, body{font-family: 'Lato', sans-serif;}
       .dropdown-item:hover{--bs-bg-opacity: 1; color: #ffffff !important; background-color: inherit;}
+
+      @keyframes slideIn
+      {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 100;
+        }
+      }
+
+      #headline{animation: 1s ease-out 0s 1 slideIn;}
+      #main-content{animation: 2s ease-out 0s 1 slideIn;}
+
     </style>
 
     <title>MainPage</title>
@@ -124,14 +138,14 @@
     <!-- MAIN CONTENT -->
     <div class="container content-height content-width text-center">
       <!-- HEADLINE -->
-      <div class="row m-5 text-white w-50 mx-auto">
+      <div id="headline" class="row m-5 text-white w-50 mx-auto">
         <h1 class="display-1">MyPage</h1>
         <h6 class="mt-4">Main page with Django, React and other projects. Some project are created for fun but some projects are created during courses and during learn some new stuff.</h6>
       </div>
       <!-- END HEADLINE -->
 
       <!-- MAINPROJECTS -->
-      <div class="row text-white mx-auto content-width" style="margin-top: 15rem;">
+      <div id="main-content" class="row text-white mx-auto content-width" style="margin-top: 15rem;">
         <div class="col-4">
           <div class="card bg-black" style="width: 25rem;">
             <img src="img/szkolne-pomoce.png" class="card-img-top" alt="...">
